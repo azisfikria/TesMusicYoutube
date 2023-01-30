@@ -2,15 +2,16 @@ package com.tesmusicyoutube.step;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.tesmusicyoutube.drivers.DriverSingleton;
+import com.tesmusicyoutube.utils.Constants;
+import com.tesmusicyoutube.utils.TestScenarios;
+import com.tesmusicyoutube.utils.Utils;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.testdua.drivers.DriverSingleton;
-import org.testdua.utils.Constants;
-import org.testdua.utils.TestScenarios;
-import org.testdua.utils.Utils;
+
 
 public class Hooks {
     public static WebDriver driver;
